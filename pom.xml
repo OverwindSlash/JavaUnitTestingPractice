@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>UnitTestingPractice</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>C01-01SimpleDemo</module>
+        <module>C02-01ParameterizedTests</module>
+        <module>C02-02SetupTeardown</module>
+        <module>C02-03ExceptionHandling</module>
+        <module>C03-01ConcreteDependency</module>
+        <module>C03-02AddDependencySeam</module>
+        <module>C03-03DependencyInjection</module>
+        <module>C03-04DiByMethod</module>
+        <module>C03-05Factory</module>
+        <module>C04-01MockService</module>
+        <module>C04-02StubAndMock</module>
+        <module>C05-01MockitoBasic</module>
+        <module>C05-02MockitoSamples</module>
+        <module>C05-03PowerMockSamples</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

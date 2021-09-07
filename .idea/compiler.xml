@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="C02-01ParameterizedTests" />
+        <module name="C03-04DiByMethod" />
+        <module name="C03-03DependencyInjection" />
+        <module name="C03-01ConcreteDependency" />
+        <module name="C04-01MockService" />
+        <module name="C01-01SimpleDemo" />
+        <module name="C05-03PowerMockSamples" />
+        <module name="C05-01MockitoBasic" />
+        <module name="C05-02MockitoSamples" />
+        <module name="C02-03ExceptionHandling" />
+        <module name="C03-02AddDependencySeam" />
+        <module name="C02-02SetupTeardown" />
+        <module name="C03-05Factory" />
+        <module name="C04-02StubAndMock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="C03-02StubAndMock" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
