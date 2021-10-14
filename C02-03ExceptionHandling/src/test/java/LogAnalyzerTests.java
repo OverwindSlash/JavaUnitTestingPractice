@@ -1,6 +1,8 @@
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.experimental.categories.Categories;
 import org.junit.rules.ExpectedException;
 
 public class LogAnalyzerTests {
@@ -37,11 +39,18 @@ public class LogAnalyzerTests {
 
     @Test
     public void isValidFilename_EmptyFilename_ThrowException_Method2() {
-        thrown.expect(NullPointerException.class);
-
         LogAnalyzer logAnalyzer = makeAnalyzer();
+
+        thrown.expect(NullPointerException.class);
         boolean result = logAnalyzer.isValidLogFilename(null);
+
         Assert.assertFalse(result);
+    }
+
+    @Ignore
+    @Test
+    public void isValidFilename_EmptyFilename_ThrowException_Ignored() {
+        Assert.assertFalse(true);
     }
 
     private LogAnalyzer makeAnalyzer() {

@@ -23,6 +23,11 @@
         <module>C05-01MockitoBasic</module>
         <module>C05-02MockitoSamples</module>
         <module>C05-03PowerMockSamples</module>
+        <module>C03-06ExtractAndOverride</module>
+        <module>C06-01HandmadeFakeObject</module>
+        <module>C06-02DynamicFakeObject</module>
+        <module>C06-03DynamicFakeObjectReturnValue</module>
+        <module>C06-04DynamicStubAndMock</module>
     </modules>
 
     <properties>

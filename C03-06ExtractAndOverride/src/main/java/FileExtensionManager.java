@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Locale;
 
-public class FileExtensionManager {
+public class FileExtensionManager implements IExtensionManager  {
 
     private HashSet<String> sites;
 
@@ -20,7 +20,8 @@ public class FileExtensionManager {
 
     public boolean isValid(String filename) {
         for (String ext:sites) {
-            if (filename.toLowerCase(Locale.ROOT).endsWith(ext)) {
+            if (filename.toLowerCase(Locale.ROOT).endsWith(ext))
+            {
                 return true;
             }
         }

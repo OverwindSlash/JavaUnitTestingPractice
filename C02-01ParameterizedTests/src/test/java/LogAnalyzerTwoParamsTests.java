@@ -11,14 +11,14 @@ public class LogAnalyzerTwoParamsTests {
     private String filename;
     private boolean expected;
 
-    @Test
+    /*@Test
     public void isValidFilename_BadExtension_ReturnsFalse() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
         boolean result = logAnalyzer.isValidLogFilename("filewithbadextension.foo");
         Assert.assertFalse(result);
     }
 
-    /*@Test
+    @Test
     public void isValidFilename_GoodExtensioLowerCase_ReturnsTrue() {
         LogAnalyzer logAnalyzer = new LogAnalyzer();
         boolean result = logAnalyzer.isValidLogFilename("filewithgoodextension.slf");
