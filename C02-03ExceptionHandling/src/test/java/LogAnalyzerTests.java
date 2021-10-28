@@ -42,9 +42,9 @@ public class LogAnalyzerTests {
         LogAnalyzer logAnalyzer = makeAnalyzer();
 
         thrown.expect(NullPointerException.class);
+        System.out.println("befor exception");
         boolean result = logAnalyzer.isValidLogFilename(null);
-
-        Assert.assertFalse(result);
+        System.out.println("after exception");
     }
 
     @Ignore

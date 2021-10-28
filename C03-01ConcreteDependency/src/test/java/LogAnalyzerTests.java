@@ -26,7 +26,7 @@ public class LogAnalyzerTests {
     }
 
     @Test(expected = NullPointerException.class)
-    public void isValidFilename_EmptyFilename_ThrowException() {
+    public void isValidFilename_EmptyFilename_ThrowException_Method1() {
         LogAnalyzer logAnalyzer = makeAnalyzer();
         boolean result = logAnalyzer.isValidLogFilename(null);
         Assert.assertFalse(result);
