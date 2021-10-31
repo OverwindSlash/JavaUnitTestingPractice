@@ -28,11 +28,13 @@
         <module>C06-02DynamicFakeObject</module>
         <module>C06-03DynamicFakeObjectReturnValue</module>
         <module>C06-04DynamicStubAndMock</module>
+        <module>C07-01CrossCuttingConcern</module>
+        <module>C07-02DontRepeatYouself</module>
+        <module>C07-03TemplateMethod</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
 </project>
